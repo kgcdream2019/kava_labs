@@ -1,0 +1,115 @@
+{
+  "_args": [
+    [
+      "@kava-labs/ilp-plugin-xrp-paychan@0.4.5",
+      "D:\\03_TASK\\01_blockchain\\05-Monero-Dollar\\work\\03-Kava\\switch"
+    ]
+  ],
+  "_from": "@kava-labs/ilp-plugin-xrp-paychan@0.4.5",
+  "_id": "@kava-labs/ilp-plugin-xrp-paychan@0.4.5",
+  "_inBundle": false,
+  "_integrity": "sha512-7WfDfxC2yCkg8aeTyepL2tEtqUEbz+MavpbD7aanqsopn+XpZ4FfMd6deWtZGD3VaGpXHk3ObPjYeoVYZihgng==",
+  "_location": "/@kava-labs/ilp-plugin-xrp-paychan",
+  "_phantomChildren": {
+    "async-limiter": "1.0.0",
+    "bignumber.js": "7.2.1",
+    "follow-redirects": "1.5.10",
+    "is-buffer": "2.0.3",
+    "socket.io-client": "2.2.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@kava-labs/ilp-plugin-xrp-paychan@0.4.5",
+    "name": "@kava-labs/ilp-plugin-xrp-paychan",
+    "escapedName": "@kava-labs%2filp-plugin-xrp-paychan",
+    "scope": "@kava-labs",
+    "rawSpec": "0.4.5",
+    "saveSpec": null,
+    "fetchSpec": "0.4.5"
+  },
+  "_requiredBy": [
+    "/@kava-labs/switch-api"
+  ],
+  "_resolved": "https://registry.npmjs.org/@kava-labs/ilp-plugin-xrp-paychan/-/ilp-plugin-xrp-paychan-0.4.5.tgz",
+  "_spec": "0.4.5",
+  "_where": "D:\\03_TASK\\01_blockchain\\05-Monero-Dollar\\work\\03-Kava\\switch",
+  "bugs": {
+    "url": "https://github.com/Kava-Labs/ilp-plugin-xrp-paychan/issues"
+  },
+  "contributors": [
+    {
+      "name": "Kincaid O'Neil",
+      "email": "kincaid@kava.io",
+      "url": "https://kincaidoneil.com/"
+    }
+  ],
+  "dependencies": {
+    "@kava-labs/crypto-rate-utils": "^2.0.2",
+    "bignumber.js": "^7.2.1",
+    "btp-packet": "^2.2.0",
+    "debug": "^4.1.1",
+    "eventemitter2": "^5.0.1",
+    "ilp-logger": "^1.1.3",
+    "ilp-packet": "^3.0.8",
+    "ilp-plugin-btp": "^1.3.7",
+    "ilp-plugin-mini-accounts": "^4.0.2",
+    "libsodium-wrappers": "^0.7.4",
+    "ripple-address-codec": "^2.0.1",
+    "ripple-keypairs": "^0.11.0",
+    "ripple-lib": "^1.1.2"
+  },
+  "description": "Settle on Interledger with XRP payment channels",
+  "devDependencies": {
+    "@types/get-port": "^4.2.0",
+    "@types/libsodium-wrappers": "^0.7.5",
+    "ava": "^1.4.1",
+    "codecov": "^3.3.0",
+    "get-port": "^5.0.0",
+    "nyc": "^14.0.0",
+    "prettier": "^1.17.0",
+    "standard": "^12.0.1",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.4.3"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "build",
+    "!build/__tests__"
+  ],
+  "homepage": "https://github.com/Kava-Labs/ilp-plugin-xrp-paychan#readme",
+  "keywords": [
+    "ilp",
+    "interledger",
+    "ledger",
+    "plugin",
+    "xrp",
+    "payment",
+    "channels"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "@kava-labs/ilp-plugin-xrp-paychan",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kava-Labs/ilp-plugin-xrp-paychan.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write 'src/**/*.ts'",
+    "lint": "tslint --project .",
+    "test": "nyc ava",
+    "test-inspect": "node --inspect-brk node_modules/ava/profile.js"
+  },
+  "types": "build/index.d.ts",
+  "version": "0.4.5"
+}
